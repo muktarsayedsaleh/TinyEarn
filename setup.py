@@ -11,7 +11,7 @@ setuptools.setup(
     description="Simple selenium webscaper to pull earnings data from zacks.com",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/hussien-hussien/TinyEarn",
+    url="https://github.com/muktarsayedsaleh/TinyEarn",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -21,6 +21,5 @@ setuptools.setup(
     python_requires='>=3.6',
     platforms=['any'],
     keywords='pandas, earnings report, earnings per share, revenue, finance, zacks.com, investment',
-    install_requires=['pandas>=0.25.3', 'numpy>=1.15.4','selenium>=3.3.0'
-                      'requests>=2.23', ' beautifulsoup4>=4.9.0','geckodriver_autoinstaller>=0.1'],
+    install_requires=['pandas>=0.25.3', 'numpy>=1.15.4','selenium>=3.3.0', 'requests>=2.23', ' beautifulsoup4>=4.9.0','geckodriver_autoinstaller>=0.1'],
 )
